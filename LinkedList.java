@@ -5,7 +5,6 @@ public class LinkedList<T>
     Node head = new Node<T>(null);
     Node cursor;
 
-     //Cursor is now pointing at head
 
     private void addAfterHead(T data) //add to right of cursor
     {
